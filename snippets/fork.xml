@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Removed projects from remote -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+
+  <!-- Frameworks Repos -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="hyper" revision="lineage-19.0" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="hyper" revision="lineage-19.0" />
+
+  <!-- Packages, services repos -->
+  <project path="packages/apps/RealmeParts" name="HyperTeam/android_packages_apps_RealmeParts" remote="github" revision="lineage-19.0" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="hyper" revision="lineage-19.0" />
+
+  <!-- System Repos-->
+  <project path="system/core" name="android_system_core" remote="hyper" revision="lineage-19.0" />
+
+  <!-- Vendor Repos-->
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="hyper" revision="lineage-19.0" />
+</manifest>
